@@ -1,0 +1,32 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+}
+
+h1 {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    text-align: center;
+}
+
+.image-container, .links{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    padding: 50px;
+    border: 1px solid black;
+    text-align: justify;
+}
+
+.container div {
+    margin-bottom: 15px;
+}
