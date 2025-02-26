@@ -5,3 +5,4 @@ What I've learned so far
 3. Ordered and Unordered List Use
 4. Embedd Image
 5. Use Relative and Absolute Links
+6. Block and Inline Model CSS

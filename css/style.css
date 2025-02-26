@@ -1,12 +1,12 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: auto;
+    margin: 0 auto;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    width: 100vw;
-    height: auto;
+    width: 800px;
 }
 
 h1 {
@@ -15,18 +15,28 @@ h1 {
     text-align: center;
 }
 
-.image-container, .links{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.links {
+    width: 800px;
+    background-color: rgb(55, 55, 55);
+    padding: 10px;
+    text-align: center;
 }
 
 .container {
-    padding: 50px;
+    padding: 20px 40px;
     border: 1px solid black;
     text-align: justify;
 }
 
-.container div {
-    margin-bottom: 15px;
+.desc, .ingredients, .steps {
+    margin: 20px auto;
+    border-bottom: 1px dotted black;
+    padding: 10px 0;
 }
